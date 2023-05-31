@@ -1,0 +1,10 @@
+<h1>Team</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est recusandae cupiditate labore voluptatibus quasi tenetur blanditiis ab autem natus aliquid?</p>
+
+<ul>
+    {{# each teamApp}}
+    <li>
+        <a href="/team/{{this.id}}">{{this.name}}</a>
+    </li>
+    {{/ each}}
+</ul>
